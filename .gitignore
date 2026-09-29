@@ -1,0 +1,36 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+**/auth.json
+**/models.json
+
+# Pi runtime data
+**/sessions/
+**/*.jsonl
+
+# Local papers and course materials
+Papers/
+assets/
+璁蹭箟.md
+璁蹭箟.pdf
+讲义.md
+讲义.pdf
+
+# Unrelated project agent retained locally
+pi-workspace/.pi/agents/materials-reader.md
+
+# Dependencies, caches, and generated working files
+node_modules/
+__pycache__/
+*.py[cod]
+report_build/
+report_render/
+*.tmp
+~$*.docx
+
+# IDE and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
